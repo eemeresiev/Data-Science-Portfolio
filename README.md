@@ -1,2 +1,2 @@
 # Data-Science-Project
-Various data science projects for both academic and leisure purposes
+Various data science projects for both academic, learning and leisure purposes
