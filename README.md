@@ -15,7 +15,7 @@ _Note: Data used in the projects (accessed under data directory) can be used to 
 - ### Machine Learning
 
 	- __Supervised Learning__:
-    		- School Work: Supervised learning projects carried out has part of a course work for a course - [ITC 686 (Big Data Analytics) Final project](https://github.com/eemeresiev/Data-Science-Portfolio/tree/main/Machine%20learning/Supervised%20Learning/School%20Work/ITC%20686%20(Big%20Data%20Analytics)%20Final%20project): Sentiment Analysis using logistic regression of Amazon product reviews with MongoDb as a datastore.
+		- School Work: Supervised learning projects carried out has part of a course work for a course - [ITC 686 (Big Data Analytics) Final project](https://github.com/eemeresiev/Data-Science-Portfolio/tree/main/Machine%20learning/Supervised%20Learning/School%20Work/ITC%20686%20(Big%20Data%20Analytics)%20Final%20project): Sentiment Analysis using logistic regression of Amazon product reviews with MongoDb as a datastore.
 	- __Unsupervised Learning__: 
 	- __Reinforcement Learning__:
 	- __Deep Learning__:
