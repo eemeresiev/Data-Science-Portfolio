@@ -1,0 +1,110 @@
+---
+title: "Connecting and Querying MongoDB collection with R"
+author: "Emmanuel Esivwenughwu"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Connecting MongoDB collection with R
+
+The library needed is **mongolite**
+
+```{r}
+library(mongolite)
+```
+
+
+The code below is to connect to the MongoDb client, database and collection. For this work **MongoDB cloud** was used
+```{r}
+connection_string = 'mongodb+srv://esivw1eo:Family2020@cluster0.wxcci.mongodb.net/myFirstDatabase'
+
+my_col = mongo(collection="airline_data", db= "mydatabase", url=connection_string)
+```
+
+
+Verifying the above code succefully connected to the database and collection by printing out total documents in the collection
+```{r}
+paste("The total document in the selected collection is:",my_col$count())
+```
+
+Now we check the first record of the collection
+```{r}
+my_col$iterate()$one()
+```
+
+Checking the first 5 records of the collection
+```{r}
+my_col$find(limit = 5)
+```
+
+### Queries done on the MongoDB collection
+
+First query gets the first 5 records where the avail_seat_kn_per_week is greater than 500,000,000
+```{r}
+query1 <- my_col$find('{"avail_seat_km_per_week": {"$gt": 500000000}}', limit = 5)
+
+query1
+```
+
+The next query gets records of all airlines starting with the letter **C** 
+```{r}
+query2 <- my_col$find('{"airline": {"$regex": "^C"}}')
+
+query2
+```
+
+The third query gets record of first 5 airlines that had at least 1 incidents_85_99.
+
+**Note:**, since the data type of **incidents_85_99** stored in the mongodb collection is **chr**, the value 0 was enclosed in double quotation.
+
+```{r}
+query3 <- my_col$find('{"incidents_85_99": {"$gt": "0"}}', fields = '{"airline": true, "incidents_85_99": true}', limit=5)
+
+query3
+```
+
+### Converting MongoDB collection to R data frame
+
+```{r}
+df <- as.data.frame(my_col$find())
+tail(df, 5)
+```
+
+we can check the df for missing values using the code below.
+```{r}
+which(is.na(df))
+```
+From the result above, we see that there are no missing values. We can also check the total number of records with complete cases (that is all fields of that record has no missing value)
+
+```{r}
+nrow(df[complete.cases(df),])
+
+```
+We can convert some of the columns to the appropriateb data type
+
+```{r}
+cols.num <- c("avail_seat_km_per_week", "incidents_85_99", "fatal_accidents_85_99", "fatalities_85_99", "incidents_00_14", "fatal_accidents_00_14", "fatalities_00_14")
+
+df[cols.num] <- sapply(df[cols.num], as.numeric)
+```
+
+To confirm that the above data type change was effected, we check the class of each column.
+
+```{r}
+sapply(df, class)
+```
+
+Now a summary of the dataframe
+
+```{r}
+summary(df)
+```
+
+#### Reference
+
+1.    https://www.mongodb.com/languages/mongodb-and-r-example
