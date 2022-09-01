@@ -34,7 +34,7 @@ _Note: Data used in the projects (accessed under data directory) can be used to 
 
 - ### Python and R with Mysql
 	- __Python__
-	-__R__
+	- __R__
     
 - ### Python and R with AWS and MongoDB
 	- __Python__
