@@ -46,7 +46,7 @@ _Note: Data used in the projects (accessed under data directory) can be used to 
 		- [Spark Activity 1](https://github.com/eemeresiev/Data-Science-Portfolio/blob/main/Python%20with%20AWS%20and%20Apache%20Spark/Spark%20Activity1.ipynb)
 		- [Spark Activity 2](https://github.com/eemeresiev/Data-Science-Portfolio/blob/main/Python%20with%20AWS%20and%20Apache%20Spark/Spark%20Activity%202.ipynb)
 		- [Spark Activity 3](https://github.com/eemeresiev/Data-Science-Portfolio/blob/main/Python%20with%20AWS%20and%20Apache%20Spark/Spark%20Activity%203.ipynb)
-	_Tools: Pandas, AWS, pyspark, Seaborn and Matplotlib_
+_Tools: Pandas, AWS, pyspark, Seaborn and Matplotlib_
 		
 	
 
