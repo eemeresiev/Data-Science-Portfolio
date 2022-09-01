@@ -30,8 +30,7 @@ _Note: Data used in the projects (accessed under data directory) can be used to 
 - ### Data Analysis and Visualization
 	- __Python__
 		- [Expoloratory Data Analysis of Air Quality Index (AQI) of USA from 2001-2021](https://github.com/eemeresiev/Data-Science-Portfolio/blob/main/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20of%20Air%20Quality%20Index%20(AQI)%20of%20USA%20from%202001-2021.ipynb)
-		- _Tools: Pandas, Seaborn and Matplotlib_
-	-__R__
+	_Tools: Pandas, Seaborn and Matplotlib_
 		
     
 - ### Python and R with AWS and MongoDB
@@ -48,7 +47,6 @@ _Note: Data used in the projects (accessed under data directory) can be used to 
 		- [Spark Activity 2](https://github.com/eemeresiev/Data-Science-Portfolio/blob/main/Python%20with%20AWS%20and%20Apache%20Spark/Spark%20Activity%202.ipynb)
 		- [Spark Activity 3](https://github.com/eemeresiev/Data-Science-Portfolio/blob/main/Python%20with%20AWS%20and%20Apache%20Spark/Spark%20Activity%203.ipynb)
 	_Tools: Pandas, AWS, pyspark, Seaborn and Matplotlib_
-	-__R__
 		
 	
 
