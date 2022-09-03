@@ -38,7 +38,7 @@ _Note: Data used in the projects (accessed under data directory) can be used to 
     
 - ### Python and R with AWS and MongoDB
 	- __Python__
-		- [Python with AWS and MongoDB I](https://github.com/eemeresiev/Data-Science-Portfolio/blob/main/Python%20with%20AWS%20and%20MongoDB/Python%20with%20AWS%20and%20MongoDB%20I.ipynb)
+		- [Python with AWS and MongoDB](https://github.com/eemeresiev/Data-Science-Portfolio/blob/main/Python%20with%20AWS%20and%20MongoDB/Python%20with%20AWS%20and%20MongoDB%20I.ipynb)
 		
 	_Tools: Pandas, AWS, pymongo, Seaborn and Matplotlib_
 	- __R__ 
