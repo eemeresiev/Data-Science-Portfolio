@@ -33,6 +33,7 @@ _Note: Data used in the projects (accessed under data directory) can be used to 
 		- [Expoloratory Data Analysis of Air Quality Index (AQI) of USA from 2001-2021](https://github.com/eemeresiev/Data-Science-Portfolio/blob/main/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20of%20Air%20Quality%20Index%20(AQI)%20of%20USA%20from%202001-2021.ipynb)
 	
 	- __R__
+		- [STA 686(Multivariate Analysis) Activity 1](https://rpubs.com/Eemeresiev/938087): Various data visualizations of various datasets as part of an activity given for a course in school
 	
 	
 	_Tools: Pandas, Seaborn and Matplotlib_
