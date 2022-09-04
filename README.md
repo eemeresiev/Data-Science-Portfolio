@@ -16,7 +16,8 @@ _Note: Data used in the projects (accessed under data directory) can be used to 
 
 	- __Supervised Learning__:
 		- __Python__
-			- Supervised learning carried out as a final project for a course - [ITC 686 (Big Data Analytics) Final project](https://github.com/eemeresiev/Data-Science-Portfolio/tree/main/Machine%20learning/Supervised%20Learning/School%20Work/ITC%20686%20(Big%20Data%20Analytics)%20Final%20project): Sentiment Analysis using logistic regression on Amazon product reviews using MongoDb as a datastore.	
+			- Supervised learning carried out as a final project for a course - [ITC 686 (Big Data Analytics) Final project](https://github.com/eemeresiev/Data-Science-Portfolio/tree/main/Machine%20learning/Supervised%20Learning/School%20Work/ITC%20686%20(Big%20Data%20Analytics)%20Final%20project): Sentiment Analysis using logistic regression on Amazon product reviews using MongoDb as a datastore.
+			You can download/view the project presentation slide [here](https://github.com/eemeresiev/Data-Science-Portfolio/blob/main/Machine%20learning/Supervised%20Learning/School%20Work/ITC%20686%20(Big%20Data%20Analytics)%20Final%20project/ITC%20686%20Project%20Presentation%20Slides.pptx).
 		- __R__
 			- Some classification models were trained on the Auto data of the ISLR2 package which were then compared with one another to get the model that classifies the target variable best for this dataset - [Classification models on the Auto data of the ISLR2 package part 1](https://rpubs.com/Eemeresiev/936886)
 			
