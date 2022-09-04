@@ -4,7 +4,7 @@ Repository containing portfolio of data science projects completed by me for aca
 
 #### The R portfolio is located [here](https://rpubs.com/Eemeresiev/).
 
-_Note: Data used in the projects (accessed under data directory) can be used to reproduce the code (e.g. some files were read from my AWS s3 filesystem. Using the file name, you can locate this file in the data folder, download it and use it in place wit your preferred filesystem._
+_Note: Data used in the projects (accessed under data directory) can be used to reproduce the code (e.g. some files were read from my AWS s3 filesystem. Using the file name, you can locate this file in the data folder, download it and use it in place with your preferred filesystem._
 
 ## Instructions for Running Python Notebooks Locally
 1. Install dependencies using requirements.txt.
