@@ -42,6 +42,7 @@ _Note: Data used in the projects (accessed under data directory) can be used to 
 	- __Python__
 		- [Python with Mysql 1](https://github.com/eemeresiev/Data-Science-Portfolio/blob/main/Python%20with%20Mysql/Python%20with%20Mysql%201.ipynb)
 	- __R__
+		- [R with Mysql 1](https://rpubs.com/Eemeresiev/939812)
     
 - ### Python and R with AWS and MongoDB
 	- __Python__
