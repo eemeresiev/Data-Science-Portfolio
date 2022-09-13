@@ -22,8 +22,7 @@ _Note: Data used in the projects (accessed under data directory) can be used to 
 			- Second sets (different from part 1) of classification models were trained on the Auto data which were then compared with one another to get the model that classifies the target variable best for this dataset - [Classification models on the Auto data of ISLR2 package part 2](https://rpubs.com/Eemeresiev/938050)
 			
 	- __Unsupervised Learning__: 
-	- __Reinforcement Learning__:
-	- __Deep Learning__:
+	
 	
 	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib_ 
 
